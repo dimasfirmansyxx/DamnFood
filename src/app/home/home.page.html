@@ -1,14 +1,33 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar class="header-bg-color">
     <ion-title>
-      Ionic Blank
+      DamnFood
     </ion-title>
+    <a slot="end">
+      <ion-icon name="cart" color="light" size="large" class="ion-margin-end"></ion-icon>
+    </a>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+
+    <div class="section-coin-info">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <div class="ion-text-start">
+              Hello, Dimas
+            </div>
+          </ion-col>
+          <ion-col>
+            <div class="ion-text-end">
+              <img src="assets/icon/coin.png" class="coin-icon"> <span> Rp.99.999.999,-</span>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    
   </div>
 </ion-content>
